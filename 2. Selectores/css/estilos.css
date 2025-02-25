@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* Selectores en css */
+
+/* Selector universal */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Selector por atributo id */
+#logo{
+    box-shadow:  2px 2px 4px gray;
+}
+
+/* Selector por etiqueta */
+
+p{
+    color: rgb(1, 47, 32);
+    margin: 50px;
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+strong{
+    color: brown;
+    text-transform: uppercase;
+    font-size: larger;
+}
+
+/* Selector por atributo class */
+
+.caja-naranja{
+    background-color: orange;
+}
+
+/* Selector por atributo */
+
+[type="text"]{
+    border: 2px solid palegoldenrod;
+    border-radius: 5px;
+}
+
+/* Selector por pseudoclase */
+
+.destacada:hover{
+    font-size: 50px;
+    color: crimson;
+    background-color: chartreuse;
+}
+
+/* Selector pseudoelemento */
+    
+.may::first-letter{
+    font-size: 300px;
+    color: red;;
+}

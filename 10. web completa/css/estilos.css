@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    color: #01060c;
+    background-color: #15c733;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+h2{
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Sección de Nosotros */
+
+.nosotros{
+    margin-top: 60px;
+    padding: 10px;
+    background-color: #0cffff;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+    width: 90%;
+    margin: 20px auto;
+}
+
+.caja{
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.caja img{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    margin: auto;
+}
+
+/* Servicios */
+
+.servicios{
+    padding: 10px;
+    background-color: bisque;
+}
+
+.card{
+    min-width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+    margin: 5px auto;
+}
+
+.card img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contacto{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 90%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.formulario{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    margin: 5px auto;
+}
+
+.formulario label{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.formulario input,
+.formulario textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario button{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.formulario button:hover{
+    background-color: #0056b3;
+}
+
+.mapa {
+    width: 50%;
+    height: 50vh;
+}
+
+.mapa iframe{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 5px;
+    min-width: 400px;
+    margin: 5px auto;
+}
+
+/* footer */
+
+footer{
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer-logo img{
+    width: 100px;
+    height: auto;
+}
+
+.footer-links{
+    text-align: center;
+    flex: 1;
+    flex-direction: column;
+}
+
+.footer-links a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 50px;
+}
+
+.footer-links a:hover{
+    text-decoration: underline;
+}
+
+.footer-social{
+    display: flex;
+    gap: 15px;
+}
+
+.footer-social a{
+    color: white;
+    text-decoration: none;
+    font-size: 200px;
+}
+
+.footer-bottom{
+    text-align: center;
+    background-color: rgb(106, 105, 105);
+    color: white;
+    padding: 10px;
+    font-size: large;
+}

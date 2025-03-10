@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:10px;
+    padding: 10px;
+    background-color: #ad9d9d;
+
+    
+}
+
+.uno{
+    background-color: #f1c40f;
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+}
+
+.dos{
+    background-color: #e74c3c;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.tres{
+    background-color: #3498db;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}

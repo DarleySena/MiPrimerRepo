@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caja-naranja{
+    background-color: orange;
+    width: 300px;
+    height: 300px;
+    margin: 50px 20px 30px 40px;
+    padding: 20px 10px 30px 40px;
+}
+
+.caja-roja{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: -70px
+}
+
+div{
+    background: blue;
+    padding: 10px;
+}
